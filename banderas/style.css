@@ -1,0 +1,44 @@
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:  #070c2e  ;
+    color: #fff;
+    padding: 32px;
+    border-bottom: 4px solid  #FFC300 ;
+    font-family: sans-serif;
+}
+
+.banderas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+
+    
+        
+}
+
+.banderas img{
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    align-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 9px;
+
+}
+
+.banderas p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
